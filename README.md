@@ -2,8 +2,7 @@ Spring batch sample
 ---------------------------------
 
 ### 1. Partition
-- 상품의 판매 이력을 파일로 쓰는 Job
-- HistoryGeneratePartitionJobConfiguration : Partition을 이용한 Job
+- HistoryGeneratePartitionJobConfiguration : Partition을 이용해 상품의 판매 이력을 파일로 쓰는 Job
 - 파라미터 totalCount, targetDate를 입력하여 실행
 
   - totalCount를 gridSize로 나누어 각각의 Step에서 데이터를 읽고 파일로 쓰도록 구성
